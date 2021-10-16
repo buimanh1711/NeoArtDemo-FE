@@ -1,0 +1,165 @@
+/*--------------------------------
+
+Netbase Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Netbase';
+  src: url('../fonts/Netbase.eot');
+  src: url('../fonts/Netbase.eot') format('embedded-opentype'), url('../fonts/Netbase.woff2') format('woff2'), url('../fonts/Netbase.woff') format('woff'), url('../fonts/Netbase.ttf') format('truetype'), url('../fonts/Netbase.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Netbase';
+  color: inherit;
+  flex-shrink: 0;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+.icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+.icon-32 {
+  font-size: 32px;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+.icon-is-spinning {
+  animation: icon-spin 1s infinite linear;
+}
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.icon-rotate-90 {
+  transform: rotate(90deg);
+}
+.icon-rotate-180 {
+  transform: rotate(180deg);
+}
+.icon-rotate-270 {
+  transform: rotate(270deg);
+}
+.icon-flip-y {
+  transform: scaleY(-1);
+}
+.icon-flip-x {
+  transform: scaleX(-1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.icon-video::before {
+  content: "\ea02";
+}
+
+.icon-play-media::before {
+  content: "\ea03";
+}
+
+.icon-heart::before {
+  content: "\ea04";
+}
+
+.icon-heartbeat::before {
+  content: "\ea05";
+}
+
+.icon-wallet-44::before {
+  content: "\ea06";
+}
+
+.icon-ctrl-down::before {
+  content: "\ea07";
+}
+
+.icon-ctrl-left::before {
+  content: "\ea08";
+}
+
+.icon-ctrl-right::before {
+  content: "\ea09";
+}
+
+.icon-ctrl-up::before {
+  content: "\ea0a";
+}
+
+.icon-arrow-sm-right::before {
+  content: "\ea0b";
+}
+
+.icon-arrow-sm-left::before {
+  content: "\ea0c";
+}
+
+.icon-arrow-sm-down::before {
+  content: "\ea0d";
+}
+
+.icon-caret-sm-up::before {
+  content: "\ea0e";
+}
+
+.icon-user::before {
+  content: "\ea0f";
+}
+
+.icon-circle-10::before {
+  content: "\ea10";
+}
+
+.icon-circle-09::before {
+  content: "\ea11";
+}
+
+.icon-contacts-45::before {
+  content: "\ea12";
+}
+
+.icon-contacts-44::before {
+  content: "\ea13";
+}
+
+.icon-e-remove::before {
+  content: "\ea14";
+}
+
+.icon-d-check::before {
+  content: "\ea15";
+}
+
+.icon-check::before {
+  content: "\ea16";
+}
+

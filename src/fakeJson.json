@@ -1,0 +1,137 @@
+[
+  {
+    "image": "/images/item1.png",
+    "title": "Tea - Jasmin Green",
+    "avt": "https://avatars.githubusercontent.com/u/20340?v=4",
+    "likes": 0,
+    "money": 1.2,
+    "ticked": true,
+    "user": "Henie"
+  },
+  {
+    "image": "/images/item2.png",
+    "title": "Garlic",
+    "avt": "https://avatars.githubusercontent.com/u/9073706?v=4",
+    "likes": 0,
+    "money": 2,
+    "ticked": true,
+    "user": "Stephen"
+  },
+  {
+    "image": "/images/item3.png",
+    "title": "Chicken - Whole",
+    "avt": "https://avatars.githubusercontent.com/u/1347491?v=4",
+    "likes": 111,
+    "money": 11.2,
+    "ticked": false,
+    "user": "Charles"
+  },
+  {
+    "image": "/images/item4.png",
+    "title": "Dates",
+    "avt": "https://avatars.githubusercontent.com/u/81322?v=4",
+    "likes": 23,
+    "money": 9.9,
+    "ticked": false,
+    "user": "Logan"
+  },
+  {
+    "image": "/images/item5.png",
+    "title": "Muffin - Mix - Mango Sour Cherry",
+    "avt": "https://avatars.githubusercontent.com/u/111600?v=4",
+    "likes": 12,
+    "money": 0.2,
+    "ticked": true,
+    "user": "Tony"
+  },
+  {
+    "image": "/images/item6.png",
+    "title": "Tomato Paste",
+    "avt": "https://avatars.githubusercontent.com/u/47108?v=4",
+    "likes": 0,
+    "money": 1,
+    "ticked": false,
+    "user": "Steve"
+  },
+  {
+    "image": "/images/item7.png",
+    "title": "Truffle - Whole Black Peeled",
+    "avt": "https://avatars.githubusercontent.com/u/32653033?v=4",
+    "likes": 8,
+    "money": 2.5,
+    "ticked": false,
+    "user": "Jackie"
+  },
+  {
+    "image": "/images/item8.png",
+    "title": "Tuna - Canned, Flaked, Light",
+    "avt": "https://avatars.githubusercontent.com/u/824194?v=4",
+    "likes": 120,
+    "money": 10,
+    "ticked": false,
+    "user": "Mr_Po"
+  },
+  {
+    "image": "/images/item9.png",
+    "title": "Lobster - Tail 6 Oz",
+    "avt": "https://vuinhiepanh.com/assets/uploads/2016/03/063.jpg",
+    "likes": 0,
+    "money": 3.2,
+    "ticked": true,
+    "user": "Dawson"
+  },
+  {
+    "image": "/images/item10.png",
+    "title": "Wine - Prosecco Valdobienne",
+    "avt": "https://i.pinimg.com/236x/90/0c/e9/900ce90b818cca296591e6ccae651d11.jpg",
+    "likes": 117,
+    "money": 5,
+    "ticked": true,
+    "user": "James_black"
+  },
+  {
+    "image": "/images/item11.png",
+    "title": "Onions - Spanish",
+    "avt": "https://i.pinimg.com/236x/1e/5b/f7/1e5bf738250c0411f0038a991d32c711.jpg",
+    "likes": 87,
+    "money": 2,
+    "ticked": false,
+    "user": "Peter_Nguyen"
+  },
+  {
+    "image": "/images/item12.png",
+    "title": "Cheese - Brick With Onion",
+    "avt": "https://hovo.vn/wp-content/uploads/2019/12/DSCF8412-533x480.jpg",
+    "likes": 100,
+    "money": 1.5,
+    "ticked": true,
+    "user": "mb1o4er"
+  },
+  {
+    "image": "/images/item13.png",
+    "title": "Kamploops",
+    "avt": "https://i.pinimg.com/236x/1e/5b/f7/1e5bf738250c0411f0038a991d32c711.jpg",
+    "likes": 10,
+    "money": 1.2,
+    "ticked": true,
+    "user": "jasmine"
+  },
+  {
+    "image":"/images/item14.png",
+    "title": "Kamploops",
+    "avt": "https://vuinhiepanh.com/assets/uploads/2016/03/063.jpg",
+    "likes": 10,
+    "money": 1.2,
+    "ticked": true,
+    "user": "Mark_Jr"
+  },
+  {
+    "image": "/images/item15.png",
+    "title": "Heli-paramous",
+    "avt": "https://c8d8q6i8.stackpathcdn.com/wp-content/uploads/2020/07/stephen_chow_360.jpg",
+    "likes": 101,
+    "money": 2.2,
+    "ticked": true,
+    "user": "A_Sing"
+  }
+]

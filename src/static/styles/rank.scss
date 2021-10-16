@@ -1,0 +1,117 @@
+#rank {
+  th.chart .recharts-wrapper {
+    width: 100% !important;
+  }
+  .rank-container {
+    .categories-wrapper {
+      ul {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #e5e8eb;
+        li {
+          flex-shrink: 0;
+          margin-right: 40px;
+          font-size: 18px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #4a5568;
+          border-bottom: 2px solid transparent;
+          padding-bottom: 12px;
+          margin-bottom: -2px;
+          cursor: pointer;
+        }
+        li.active {
+          color: #5640b7;
+          border-bottom: 2px solid #5640b7;
+          transition: all 0.3s;
+        }
+      }
+    }
+
+    .rank-table {
+      margin-bottom: 20px;
+      .table-container {
+        table {
+          width: 100%;
+          tr {
+            padding: 33px 20px 22px 20px;
+            display: flex;
+            align-items: center;
+            th {
+              width: 12.125%;
+              font-size: 16px;
+              font-weight: 500;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #4a5568;
+              // margin-right: 10px;
+            }
+
+            th.name {
+              text-align: left;
+              flex-grow: 1;
+            }
+            th.chart {
+              text-align: right;
+              width: 12%;
+            }
+          }
+          tr.title-row {
+            border-bottom: 2px solid #e5e8eb;
+            th.name {
+              color: #017a9b;
+            }
+          }
+          tr.data-row {
+            padding: 15px 15px !important;
+            th {
+              font-size: 18px;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #4a5568;
+              font-family: fontRegular;
+              transform: translateY(2px);
+            }
+            th.name {
+              display: flex;
+              align-items: center;
+              span {
+                margin-right: 15px;
+              }
+              a {
+                color: #4a5568;
+                font-weight: 500;
+                height: 18px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                transform: translateY(-2px);
+              }
+              img {
+                width: 42px;
+                height: 42px;
+                object-fit: cover;
+                margin-right: 12px;
+                border-radius: 50%;
+                transform: translateY(-4px);
+                flex-shrink: 0;
+              }
+            }
+          }
+          tr.data-row.even {
+            background-color: #f8f9fa;
+          }
+        }
+      }
+    }
+  }
+}

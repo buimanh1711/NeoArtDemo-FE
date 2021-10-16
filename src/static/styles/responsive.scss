@@ -1,0 +1,494 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (max-width: 1199px) {
+  #explore .explore-wrapper .explore-wrapper-container .filter_side-container.fixed {
+    width: 224px;
+  }
+}
+@media (max-width: 1024px) {
+  #main-layout #mobile-menu {
+    display: block;
+  }
+  #main-layout .header .header-container .user-block {
+    display: none;
+  }
+  #main-layout .header .header-container {
+    height: 60px;
+    z-index: 10;
+  }
+  #main-layout .header.search {
+    border-bottom: none !important;
+  }
+  #main-layout .search-form-container {
+    animation: search_mobile 0.1s;
+    bottom: 0;
+    top: 0;
+    form {
+      padding: 14px 0px 10px 0px;
+    }
+  }
+  @keyframes search_mobile {
+    from {
+      opacity: 0;
+      top: -100%;
+    }
+    to {
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+  #main-layout .search-form-container button.close {
+    height: 36px;
+    width: 36px;
+  }
+  #main-layout form.search_form-form button.search-btn {
+    left: 15px;
+    width: 15px;
+    height: 15px;
+  }
+  #main-layout form.search_form-form input {
+    height: 36px;
+    padding-left: 39px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  #main-layout .header .header-container .btns {
+    display: none;
+  }
+  #main-layout .header .header-container {
+    align-items: center;
+  }
+  #main-layout .header .header-container .logo {
+    margin: auto;
+    order: 1;
+    span.web-name {
+      margin-right: auto;
+    }
+  }
+
+  #main-layout .header .header-container .search-form {
+    order: 2;
+  }
+  #main-layout .header .header-container .bars-btn {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    display: block;
+    order: 0;
+  }
+  #main-layout .header .wallet-block.active .wallet-detail-info button.disconnect-mb {
+    display: block;
+  }
+  #main-layout .header .wallet-block-container {
+    display: none;
+  }
+  #main-layout .template-content {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 991.98px) {
+  #account .collection {
+    margin-top: 60px;
+  }
+  #account .collection .categories-wrapper .container {
+    overflow-x: scroll;
+  }
+  #account .collection .categories-wrapper ul {
+    width: auto;
+    overflow-x: auto;
+  }
+  #account .info-information {
+    padding: 0px 12px;
+  }
+  #activity button.filter-btn,
+  #activity button.close-filter-btn {
+    display: flex !important;
+  }
+  #activity button.close-filter-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+  }
+
+  #activity .list-form {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #activity .filter-wrapper {
+    display: none;
+  }
+
+  #activity .filter-wrapper.mb {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .filter-form {
+      position: static !important;
+      width: 100%;
+      height: 100%;
+      padding-top: 60px;
+    }
+  }
+
+  #create-nft button.preview-btn,
+  #create-nft button.close-preview-btn {
+    display: block !important;
+  }
+  #create-nft button.close-preview-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+  }
+
+  #create-nft .input-form {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #create-nft .preview-wrapper {
+    display: none;
+  }
+
+  #create-nft .preview-wrapper.mb {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .preview-form {
+      position: static !important;
+    }
+  }
+  #rank {
+    .rank-container {
+      .container {
+        overflow: scroll;
+      }
+      .categories-wrapper ul {
+        width: auto;
+        overflow: auto;
+        li {
+          flex-grow: 1;
+          flex-shrink: 0;
+        }
+      }
+
+      .rank-table .table-container table {
+        width: 1240px;
+      }
+    }
+  }
+  #detail {
+    padding-top: 20px;
+  }
+  #detail .main_info .main_info-image {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #detail .main_info .main_info-info {
+    width: 100%;
+    padding-left: 0;
+    button.buy {
+      width: 100%;
+    }
+  }
+  #explore .explore-wrapper .explore-wrapper-container .filter_side.mb-active {
+    display: block;
+    background: white;
+    padding-right: 12px;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 4px 0px 30px rgba(0, 0, 0, 0.089);
+    z-index: 20;
+    animation: filter 0.3s;
+    button.close-filter {
+      display: block !important;
+      background: none;
+      margin: 4px;
+      margin-left: auto;
+    }
+    @keyframes filter {
+      from {
+        opacity: 0;
+        margin-left: -100%;
+      }
+      to {
+        opacity: 1;
+        margin-left: 0;
+      }
+    }
+    .filter_side-container {
+      position: static !important;
+      bottom: 0 !important;
+      width: 100%;
+    }
+  }
+  #explore .explore-wrapper .explore-wrapper-container .filter_side.mb-active::after {
+    content: "";
+    position: fixed;
+    right: 0;
+    left: 320px;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(4px);
+  }
+
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort button.filter-btn-mb {
+    display: inline-flex;
+  }
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort span.result {
+    display: none;
+  }
+  #main-layout .header .wallet-block.desktop.active {
+    display: none;
+  }
+  .page-header .page-header-container,
+  .page-header2 .page-header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #explore .explore-wrapper .explore-wrapper-container .main_side {
+    width: 100%;
+    padding-left: 0;
+  }
+  #explore .explore-wrapper .explore-wrapper-container .filter_side {
+    display: none;
+  }
+
+  #home .explore .explore-container .explore-header .categories {
+    display: none;
+  }
+  #home .explore .explore-container .explore-header button.view {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  #account .info-banner {
+    height: 300px;
+  }
+  #main-layout .footer .footer-container .menu ul.cate-menu {
+    li.cate-item {
+      margin-right: 34px;
+    }
+    li.cate-item.account {
+      display: none;
+    }
+  }
+
+  .page-header2 .page-header-container p {
+    width: 100%;
+  }
+  .activity-item .item-wrapper .thumb-wrapper {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+    a {
+      width: 100%;
+    }
+  }
+  .activity-item .item-wrapper {
+    flex-wrap: wrap;
+  }
+
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort select {
+    height: 36px;
+    padding: 8px 18px 6px 11px;
+    width: 140px;
+  }
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort button.filter-btn-mb {
+    height: 36px;
+  }
+  .page-header .page-header-container h1 {
+    font-size: 25px;
+  }
+  #home .explore .explore-container .explore-header button.view,
+  #home .top-sellers .top-sellers-header button,
+  #home .explore .explore-container .direct a {
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+  }
+  #main-layout .footer {
+    padding-top: 50px;
+  }
+  #main-layout .footer .footer-container .menu {
+    width: 100%;
+    margin-top: 50px;
+    ul.cate-menu {
+      justify-content: space-between !important;
+    }
+  }
+  #home .auctions,
+  #home .top-sellers,
+  #home .explore,
+  #home .collection,
+  .list1 {
+    padding-top: 60px;
+  }
+  #detail .main_info {
+    margin-bottom: 0px;
+  }
+
+  #home .explore .explore-container .explore-header,
+  #home .top-sellers .top-sellers-header,
+  #home .auctions .auctions-header {
+    margin-bottom: 20px;
+  }
+
+  #home .banner {
+    // aspect-ratio: 1.5;
+    padding-top: 67%;
+    height: unset;
+    .btns {
+      display: flex;
+    }
+    .my-btn2 {
+      width: 48%;
+      text-align: center;
+      padding-top: 16px;
+      padding-bottom: 14px;
+    }
+  }
+  #home .banner .banner-container {
+    position: static;
+    width: unset;
+    height: unset;
+  }
+  #home .banner .banner-container .content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+    p {
+      width: 90%;
+      text-align: center;
+      margin: 20px auto;
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  #account .info-information .actions {
+    margin-top: 32px;
+  }
+  #account .info-information .info-networks .twitter {
+    margin: 0 12px;
+  }
+  #account .info-information .info-avt {
+    width: 150px;
+    margin-top: -75px;
+  }
+  #account .info-banner {
+    height: 242px;
+  }
+  #account .info-information .info-username {
+    margin-top: 16px;
+    span {
+      font-size: 32px;
+    }
+  }
+  #account .info-information {
+    width: 100%;
+    padding: 0;
+  }
+  .page-header2 .page-header-container h1 {
+    font-size: 28px;
+  }
+  #create-nft .ownership-input-wrapper input {
+    height: 46px;
+  }
+  #create-nft .input-form {
+    padding: 25px;
+  }
+  #create-nft .input-form label.image-label {
+    padding: 27px 20px;
+  }
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort button.filter-btn-mb {
+    width: 48%;
+  }
+
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort select {
+    width: 48%;
+    margin-left: 0;
+  }
+
+  #explore .explore-wrapper .explore-wrapper-container .main_side .main-sort select.time-sort {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+  #home .auctions .auctions-header button,
+  .list1 .list1-header button {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home .top-sellers .top-sellers-header h2,
+  #home .auctions .auctions-header h2,
+  #home .explore .explore-container .explore-header h2,
+  #home .collection .collection-container h2,
+  .list1 .list1-header h2 {
+    font-size: 22px;
+  }
+  #home .banner {
+    // aspect-ratio: 1;
+    padding-top: 100%;
+    .btns {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 8px;
+    }
+    .my-btn2 {
+      width: 48%;
+      text-align: center;
+      padding-top: 16px;
+      padding-bottom: 14px;
+    }
+  }
+  #home .banner .banner-container .content .btns .explore-btn {
+    margin-right: 0;
+  }
+
+  #home .banner .banner-container .content {
+    width: 100%;
+    h2 {
+      line-height: 2.3rem;
+    }
+  }
+}
+
+@media (max-width: 479.98px) {
+}

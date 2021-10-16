@@ -1,0 +1,253 @@
+#detail {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  .main_info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    align-items: flex-start;
+    .main_info-image {
+      width: 50%;
+      flex-shrink: 0;
+      padding: 20px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+      border: solid 1px #f9f9f9;
+      border-radius: 10px;
+      .image-wrapper {
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      }
+    }
+    .main_info-info {
+      width: 50%;
+      padding-left: 20px;
+      flex-shrink: 0;
+      h1 {
+        font-size: 34px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #121928;
+        margin: 0;
+      }
+      .price {
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #121928;
+        margin-top: 20px;
+      }
+      .description {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #4a5568;
+        margin-bottom: 0;
+        margin-top: 40px;
+        font-family: fontRegular;
+      }
+      .pieces {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        color: #4a5568;
+        margin-top: 40px;
+      }
+      .buy {
+        width: 400px;
+        margin-top: 20px;
+        display: block;
+      }
+      .networks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        .social_networks {
+          a {
+            width: 42px;
+            height: 42px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            border-radius: 6px;
+            border: solid 1px #e5e8eb;
+            background-color: #f8f9fa;
+            margin-right: 12px;
+            i {
+              color: #0078d7;
+            }
+          }
+        }
+        .like {
+          span {
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #4a5568;
+            transform: translateY(-3px);
+            display: inline-block;
+          }
+          button {
+            outline: none;
+            width: 42px;
+            height: 42px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            border-radius: 6px;
+            border: solid 1px #e5e8eb;
+            background-color: #f8f9fa;
+            margin-left: 12px;
+          }
+        }
+      }
+    }
+    .tabs {
+      margin-top: 38px;
+      border-bottom: 2px solid #e5e8eb;
+      display: flex;
+      position: relative;
+      .tab-btn {
+        outline: none;
+        display: block;
+        padding-bottom: 10px;
+        margin-right: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        font-family: fontRegular;
+        background: none;
+        border-bottom: 2px solid transparent;
+        transform: translateY(2px);
+      }
+      .tab-btn.active {
+        color: #5640b7;
+        border-bottom: 2px solid #5640b7;
+      }
+    }
+    .tab-container {
+      padding-top: 20px;
+      margin-top: 30px;
+      background: white;
+      width: 100%;
+    }
+    .owner-tab {
+      ul {
+        li {
+          margin-bottom: 20px;
+        }
+      }
+
+      .user-wrapper2 {
+        .avt {
+          width: 46px;
+          height: 46px;
+          transform: translateY(-3px);
+        }
+        .info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          font-size: 16px;
+          span {
+            line-height: 16px;
+            height: 16px;
+            transform: translateY(2px);
+          }
+        }
+      }
+    }
+    .info-tab {
+      span {
+        display: block;
+      }
+      .key {
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a5568;
+        margin-bottom: 8px;
+      }
+      .value {
+        word-wrap: break-word;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #017a9b;
+        margin-bottom: 20px;
+      }
+    }
+    .history-tab {
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          span {
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            font-family: fontRegular;
+            color: #4a5568;
+          }
+          .avt-wrapper {
+            position: relative;
+            margin-right: 8px;
+            img.avt-img {
+              width: 46px;
+              height: 46px;
+              object-fit: cover;
+              border-radius: 50%;
+            }
+            .avt-tick {
+              bottom: 0;
+              right: -4px;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+}
